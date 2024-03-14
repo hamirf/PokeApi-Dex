@@ -1,0 +1,9 @@
+a.disabled {
+    pointer-events: none;
+    background-color: rgb(74 222 128);
+}
+
+a.active {
+    pointer-events: none;
+    background-color: rgb(21 128 61);
+}

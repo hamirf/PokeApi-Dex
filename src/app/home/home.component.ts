@@ -49,7 +49,7 @@ export class HomeComponent {
             this.pokemonSpecies.push(species);
           })
 
-          // console.log("Detail:", detail);
+          console.log("Fetching from pokeapi.co...");
         })
       }
 

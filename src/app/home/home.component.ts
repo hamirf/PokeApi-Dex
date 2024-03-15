@@ -53,7 +53,7 @@ export class HomeComponent {
         })
       }
 
-      return this.pokemonList;
+      return await Promise.all(this.pokemonList);
     }).then((pokemons) => {
       console.log("pokemons:", pokemons);
       console.log("pokemon total:", pokemons.length);
